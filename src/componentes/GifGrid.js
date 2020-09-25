@@ -7,10 +7,8 @@ export const GifGrid = ({category}) => {
    
 
  const {data:images,loading} = useFetchGifs(category);
-
-
-
-    return (<> {/* = <div></div> */}
+    return (
+    <> 
     <h3>{category}</h3>  
      {loading}
     <div className="card-grid">
