@@ -8,4 +8,3 @@ import './index.css';
 ReactDOM.render( <GEApp/> ,
     document.getElementById('root')
 );
-// GifExpertApp

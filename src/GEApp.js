@@ -4,10 +4,10 @@ import { GifGrid } from './componentes/GifGrid'
 
 export const GEApp = () => {
 
-    const [categories, setCategories]=useState(["One Piece"])
+    const [categories, setCategories]=useState(["Attack on Titan","Death note","Boku no hero","One punch man", "Naruto"])
        return (
-         <>
-            <h2>GifExpertApp</h2>
+        <>
+            <h2>Anime GIF Searcher</h2>
             <AddCategory setCategories={setCategories} />
 
            <ul>
