@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GEApp should show categories list 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__zoomIn"
+  >
+    Anime GIF Searcher
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ul>
+    <GifGrid
+      category="Naruto"
+      key="Naruto"
+    />
+    <GifGrid
+      category="Boku no Hero"
+      key="Boku no Hero"
+    />
+  </ul>
+</Fragment>
+`;
+
+exports[`Testing GEApp should works 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__zoomIn"
+  >
+    Anime GIF Searcher
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ul />
+</Fragment>
+`;

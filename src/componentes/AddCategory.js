@@ -11,17 +11,21 @@ export const AddCategory = ({setCategories}) => {
 
    const handleSubmit =(event)=>{
        event.preventDefault( );
+
      if(inputValue.trim().length>2){
        setCategories(newCategories=>[inputValue,...newCategories,]);
        setInputValue("");
-   }}
+   }
+}
     return (
         <>
          <form onSubmit={handleSubmit}>
          <label>Search your favourite anime:</label><br/>
-         <input type="text" value={inputValue} onChange={handleInputChange}></input>
-        
-          </form> 
+         <input type="text"
+                value={inputValue}
+                onChange={handleInputChange}>
+         </input>
+          </form>
          </>
     )
 }

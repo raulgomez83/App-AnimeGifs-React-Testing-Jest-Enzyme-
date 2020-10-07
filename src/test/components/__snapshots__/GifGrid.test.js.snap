@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifGrid component should component works 1`] = `
+<Fragment>
+  <h3>
+    Naruto
+  </h3>
+  <Component />
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Testing GifGrid component should show items to charge image useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    Naruto
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="123"
+      key="123"
+      title="aonechuzri"
+      url="https://localhost/hueyd.jpg"
+    />
+  </div>
+</Fragment>
+`;

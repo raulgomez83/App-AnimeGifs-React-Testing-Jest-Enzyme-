@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCategory test should show right 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Search your favourite anime:
+    </label>
+    <br />
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </form>
+</Fragment>
+`;

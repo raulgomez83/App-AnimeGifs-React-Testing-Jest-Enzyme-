@@ -2,12 +2,12 @@ import React ,{useState} from 'react'
 import { AddCategory } from './componentes/AddCategory'
 import { GifGrid } from './componentes/GifGrid'
 
-export const GEApp = () => {
+export const GEApp = ({defaultCategories=[]} ) => {
 
-    const [categories, setCategories]=useState(["Attack on Titan","Death note","Boku no hero","One punch man", "Naruto"])
+    const [categories, setCategories]=useState(defaultCategories)
        return (
         <>
-            <h2>Anime GIF Searcher</h2>
+            <h2 className="animate__animated animate__zoomIn">Anime GIF Searcher</h2>
             <AddCategory setCategories={setCategories} />
 
            <ul>
